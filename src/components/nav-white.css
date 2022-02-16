@@ -1,0 +1,55 @@
+.nav-items-white {
+    font-family: tilium;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+}
+.nav-items-white>div {
+    height: 40px;
+    padding: 12px;
+    margin: 12px;
+    /* background-color: crimson; */
+}
+.nav-items-white>div.nav-col-5 li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-items-white>div.nav-col-5>ul li>.dropdown {
+    background-color: unset;
+    border: unset;
+    outline: unset;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    font-family: tilium;
+}
+
+.nav-items-white>div.nav-col-5>ul li>.dropdown:hover {
+    color: orangered;
+}
+
+.nav-items-white>div.nav-col-5>ul li>a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items-white>div.nav-col-5>ul li>a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items-white>div.nav-col-5>ul li>a:hover {
+    color: orangered;
+    text-decoration: none;
+}
+
+.nav-items-white>div.nav-col-5>ul li>a:active {
+    color: white;
+    text-decoration: none;
+}

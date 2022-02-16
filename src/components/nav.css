@@ -1,0 +1,59 @@
+@font-face {
+    font-family: samsung;
+    src: url(../assets/fonts/samsungsharpsans.woff);
+}
+
+@font-face {
+    font-family: tilium;
+    src: url(../assets/fonts/TitilliumWeb-Regular.ttf);
+}
+
+.nav-items{
+    font-family: tilium;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    color:rgb(112, 112, 112);
+}
+
+
+.nav-items>div{
+    height:40px;
+    padding:12px;
+    margin: 12px;
+    /* background-color: crimson; */
+} 
+
+.nav-col-4{
+ width:100px;
+}
+
+nav-col-5{
+    flex-grow: 1;
+}
+
+.nav-items>div.nav-col-5 li{
+    list-style: none;
+    display: inline-block;
+    padding-right:40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.nav-items>div.nav-col-5>ul li>.dropdown {
+    background-color: unset;
+    border: unset;
+    outline: unset;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    color:rgb(112, 112, 112);
+    font-family: tilium;
+}
+
+.nav-items>div.nav-col-5>ul li>.dropdown:hover{color:orangered;}
+a:link{color:rgb(112, 112, 112); text-decoration:none;}
+a:visited{color:rgb(112, 112, 112); text-decoration:none;}
+a:hover{color:orangered; text-decoration:none;}
+a:active{color:rgb(112, 112, 112); text-decoration:none;}
