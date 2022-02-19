@@ -1,49 +1,55 @@
-import './nav.css';
-import './nav.css';
-import logo from '../assets/img/kemea-site-logo.png'
-import { Link } from 'react-router-dom';
-
+import "./nav.css";
+import logo from "../assets/img/kemea-site-logo.png";
+import { Link } from "react-router-dom";
 
 function Nav() {
-    
-    return (
-        
-        <div className='nav-bar'>      
-            <div className='nav-items'>
-                <div className='nav-col-1'></div>
-                <div className='nav-col-2'>
-                    <img width="70%" height="auto" src={logo} alt="website logo"></img>
-                </div>
-                <div className='nav-col-3'></div>
-                <div className='nav-col-4'> </div>
-        
-                    <div className='nav-col-5'>
-                         <ul>
-                        <li> <Link to="/">Home</Link></li>
-                        <li>
-                            <select className='dropdown'>
-                                <option>Services</option>
-                                {/* <option>Web Development</option>
-                                <option>Digital Marketing</option>
-                                <option>Computer Services</option>
-                                <option>Training</option>
-                                <option>Consultancy</option> */}
-                            </select>
-                        </li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/team">Team</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                    </ul>
-                </div>
-                
-        </div>
+  return (
+   <div>
 
-        </div>
 
-    )
+<nav class="navbar  fixed-top navbar-light bg-light">
+
+
+   <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+       <img width="160" height="40" src={logo} alt="website logo"></img>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul className="navbar-nav mb-2 mb-lg-0 text-center">
+          
+             <li className="nav-item">
+               <a className="nav-link active" aria-current="page" href="">
+                 <Link to="/">HOME</Link>
+               </a>
+             </li>
+
+             <li className="nav-item">
+               <a className="nav-link" href="#">
+                 <Link to="/about">ABOUT</Link>
+               </a>
+             </li>
+
+  <li className="nav-item">
+              <a className="nav-link" href="#">
+                 <Link to="/team">TEAM</Link>
+               </a>
+             </li>
+             <li className="nav-item">
+               <a className="nav-link" href="#">
+                 <Link to="/contact">CONTACT</Link>
+               </a>
+             </li>
+        </ul>
+        </div>
+        </div>
+</nav>
+
+     
+     </div>
+  );
 }
 
-
 export default Nav;
-
-
