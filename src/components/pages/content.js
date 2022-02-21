@@ -17,8 +17,7 @@ function Content() {
           </div>
           <div className="txt-container col-md-6 col-sm-12 special-content">
             <p>
-              Kemea IT Solution is an information technology solutions provider
-              operating in Takoradi, Ghana. The start-up is formed and managed
+              A tech start-up formed and managed
               by a team of experienced young IT Professionals with specialities
               in Web Development, Digital Marketing and Computing, with a vision
               to become the premier go-to solutions provider for all
