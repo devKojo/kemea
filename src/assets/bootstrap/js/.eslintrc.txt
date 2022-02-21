@@ -1,0 +1,14 @@
+{
+    "overrides": [
+        {
+            "files": ["*.bootstrap.bundle.js", "*.bootstrap.js"],
+            "rules": {
+                "no-unused-expressions": "off",
+		"no-undef":"off",
+		"no-restricted-globals":"off",
+		"unused-imports/no-unused-vars":"off",
+		"":""
+            }
+        }
+    ]
+}

@@ -30,16 +30,18 @@ function Testimonial() {
         ></button>
       </div>
       <div className="carousel-inner c-inner">
-
         <div className="testimonial-header">
           <h1>Clients' Satisfaction</h1>
           <p>This is what our clients have to say about us.</p>
-          </div>
+        </div>
 
         <div className="carousel-item active " data-bs-interval="10000">
           <div className="d-block d-md-block c-caption">
             <div className="client-img">
-              <img src={require("../../assets/img/clients/nikitha.png")} />
+              <img
+                src={require("../../assets/img/clients/nikitha.png")}
+                alt=""
+              />
             </div>
             <h5>Paulina Nwalley</h5>
             <h6>CEO, Axcomot Ltd.</h6>
@@ -61,7 +63,10 @@ function Testimonial() {
         <div className="carousel-item" data-bs-interval="2000">
           <div className="c-caption d-block d-md-block">
             <div className="client-img">
-              <img src={require("../../assets/img/clients/miguel.png")} />
+              <img
+                src={require("../../assets/img/clients/miguel.png")}
+                alt=""
+              />
             </div>
             <h5>Kweku Sackey</h5>
             <h6>CEO, DeKkej Co.Ltd</h6>
@@ -74,7 +79,7 @@ function Testimonial() {
             />
 
             <p>
-             They have a very hardworking team and the quality of their
+              They have a very hardworking team and the quality of their
               delivery is exceptional, keep it up guys!
             </p>
           </div>
@@ -83,7 +88,10 @@ function Testimonial() {
         <div className="carousel-item">
           <div className="c-caption d-block d-md-block">
             <div className="client-img">
-              <img src={require("../../assets/img/clients/francisco.png")} />
+              <img
+                src={require("../../assets/img/clients/francisco.png")}
+                alt=""
+              />
             </div>
             <h5>Ephraim Arthur</h5>
             <h6>CEO, BelliTech Services</h6>
